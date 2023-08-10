@@ -27,7 +27,7 @@ export default function HomePage() {
         "https://api.openai.com/v1/audio/transcriptions",
         {
           headers: {
-            Authorization: `Bearer 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`,
+            Authorization: `Bearer `,
           },
           method: "POST",
           body: formData,
@@ -37,7 +37,7 @@ export default function HomePage() {
       // 2. Get the text transcribed from the above response
       const result = await response.json();
       const transcription = result.text;
-      
+
       setTranscription(transcription);
     } catch (error) {
       console.log(error);
