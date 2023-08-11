@@ -2,7 +2,8 @@
 
 ## Description
 
-This is a simple app that uses the ChatGPT's Speech to Text API to transcribe audio files to text. The app is built using NextJS. The app is hosted on gitHub and can be accessed via this link: https://ai-transcriber.herokuapp.com/
+This is a simple app that uses the ChatGPT's Speech to Text API to transcribe audio files to text. The app is built using NextJS. The app is hosted on Vercel and can be accessed [here]().
+
 
 ## How to use
 
